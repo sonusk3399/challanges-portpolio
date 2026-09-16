@@ -1,57 +1,134 @@
 *{
     margin: 0px;
     padding: 0px;
-    /* background-color: black; */
 }
-.one {
-    display: flex;
-
+.one{
+    display:flex;
     
 }
-#on{
+#sonu{
     height: 500px;
-    width: 500px;
-    border-radius: 50% solid blue;
-    background-image: url("./pallavi.img.png");
-    background-size: cover;
-}
-#tw,h2{
-    color: rgb(147, 33, 33);
-    text-align: center;
-}
-.three{
-    display: flex;
-    height: 350px;
-    width: 138vh;
-    background-color: antiquewhite;
-    position: relative;
-    left: 20px;
-    box-shadow: 2px,3px,4px,5px;
+    width: 700px;
 
 }
-.five{
-    height: 300px;
-    width: 30vw;
-    border: 2px solid rgb(50, 131, 244);
-    margin-top: 35px;
-    border-radius: 5%;
-    position: relative;
-    left: 3vw;
-    background-image: url("./pallavi.img.png");
-    background-size: cover;
+#sonu:hover{
+    box-shadow: 0 0 20px 0px rgba(221,4,4,0.2);
 }
-.six{
+#circle{
+   height: 500px;
+    width: 400px;
     position: relative;
+    left: 140px;
+    border-radius: 50% ;
+    border: 2px solid rgb(0, 195, 255);
+    overflow: hidden;
+}
+#circle img{
+    width: 100%;
+    height: 100%;
    
-    height: 290px;
-    width: 35vw;
-    /* border: 1px solid black; */
+}
+
+#sonu .btn-secondary{
+    height: 50px;
+    width: 175px;
+    border-radius: 40px;
+    font-size: 20px;
+    color: rgb(39, 23, 23);
+    border: none;
+    transition: all 0.5s linear;
+    background-color: rgb(242, 238, 238);
+}
+
+#sonu .btn-secondary:hover{
+    box-shadow: 7px  17px 27px rgb(26, 101, 181);
+    background-color: blue;
+    color: white;
+    transition: scale(1s);
+}
+#sonu b{
+    color: blue;
+}
+#sonu h1{
+    color: rgb(120, 83, 83);
+}
+#sonu h3{
+    color: blue;
+}
+.head {
+    height: 300px;
+    width: 100%;
+}
+
+/* First Row */
+#head1 {
+    display: flex;
+    gap: 100px;
     position: relative;
-    left: 5vw;
+    left: 600px;
+    bottom: 135px;
 }
 
-h1{
+/* Education / College / Location boxes */
+#hi {
+    color: white;
+    height: 100px;
+    width: 200px;
+    border: 2px solid rgb(3, 12, 15);
+    background-color: black;
     text-align: center;
-    color: brown;
+
+    /* Smooth hover */
+    transition: 0.3s ease;
 }
 
+/* Second Row */
+#head2 {
+    display: flex;
+    gap: 100px;
+    position: relative;
+    left: 600px;
+    bottom: 70px;
+}
+
+/* Experience / Email / Phone boxes */
+#why {
+    color: white;
+    height: 100px;
+    width: 200px;
+    border: 2px solid rgb(3, 12, 15);
+    text-align: center;
+    background-color: black;
+
+    /* Smooth hover */
+    transition: 0.3s ease;
+}
+
+/* Hover for both types of div */
+#hi:hover,
+#why:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 10px 25px rgba(255, 255, 255, 0.25);
+    border-color: white;
+}
+
+/* Heading */
+#head0 h4 {
+    color: white;
+}
+
+.pi {
+    background-color: rgb(34, 33, 31);
+}
+.pi b{
+    color: blue;
+}
+.pi h4{
+    color: white;
+}
+.pi p{
+   color: white;
+}
+
+
+ 
