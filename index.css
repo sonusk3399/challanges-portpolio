@@ -1,0 +1,57 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    /* background-color: black; */
+}
+.one {
+    display: flex;
+
+    
+}
+#on{
+    height: 500px;
+    width: 500px;
+    border-radius: 50% solid blue;
+    background-image: url("./pallavi.img.png");
+    background-size: cover;
+}
+#tw,h2{
+    color: rgb(147, 33, 33);
+    text-align: center;
+}
+.three{
+    display: flex;
+    height: 350px;
+    width: 138vh;
+    background-color: antiquewhite;
+    position: relative;
+    left: 20px;
+    box-shadow: 2px,3px,4px,5px;
+
+}
+.five{
+    height: 300px;
+    width: 30vw;
+    border: 2px solid rgb(50, 131, 244);
+    margin-top: 35px;
+    border-radius: 5%;
+    position: relative;
+    left: 3vw;
+    background-image: url("./pallavi.img.png");
+    background-size: cover;
+}
+.six{
+    position: relative;
+   
+    height: 290px;
+    width: 35vw;
+    /* border: 1px solid black; */
+    position: relative;
+    left: 5vw;
+}
+
+h1{
+    text-align: center;
+    color: brown;
+}
+
